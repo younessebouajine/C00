@@ -1,12 +1,11 @@
 #include <unistd.h>
 
 void ft_print_alphabet(void){
-	int i = 97;
-	int j = 122;
-	while (i <= j){
-		char c = i;
-		write(1, &i, 1);
-		i++;
+	char a = 97;
+	char z = 122;
+	while (a <= z){
+		write(1, &a, 1);
+		a++;
 	}
 }
 
